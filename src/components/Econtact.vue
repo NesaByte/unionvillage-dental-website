@@ -62,7 +62,7 @@ export default {
 
 <style scoped>
 .contact {
-  background: #fbfaf8;
+  background: #e3e9d1;
   background-size: cover;
   display: block;
 }
