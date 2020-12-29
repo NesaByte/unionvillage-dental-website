@@ -8,6 +8,7 @@
     <Afront id="front"/>
     <Babout id="about"/>
     <CTreatment id="treatment"/>
+    <DPolicies id="policies"/>
 
     <AAspace />
     <Dportfolio id="portfolio"/>
@@ -21,6 +22,9 @@
 import Afront from './components/Afront.vue'
 import Babout from './components/Babout.vue'
 import CTreatment from './components/CTreatment.vue'
+import DPolicies from './components/DPolicies.vue'
+
+
 /*import Dportfolio from './components/Dportfolio.vue'
 import Ffooter from './components/Ffooter.vue'
 import AAspace from './components/AAspace.vue'
@@ -32,7 +36,8 @@ export default {
   components: {
     Afront, 
     Babout,
-    CTreatment /*AAspace,
+    CTreatment,
+    DPolicies /*AAspace,
     Dportfolio,
     Ffooter,
     AAnavbar,
