@@ -7,6 +7,8 @@
     <AAnavbar/>
     <Afront id="front"/>
     <Babout id="about"/>
+    <CTreatment id="treatment"/>
+
     <AAspace />
     <Dportfolio id="portfolio"/>
     <Econtact id="contact"/>
@@ -18,6 +20,7 @@
 <script>
 import Afront from './components/Afront.vue'
 import Babout from './components/Babout.vue'
+import CTreatment from './components/CTreatment.vue'
 /*import Dportfolio from './components/Dportfolio.vue'
 import Ffooter from './components/Ffooter.vue'
 import AAspace from './components/AAspace.vue'
@@ -27,9 +30,9 @@ import AAnavbar from './components/AAnavbar.vue'
 export default {
   name: 'App',
   components: {
-    Afront,
-    
-    Babout, /*AAspace,
+    Afront, 
+    Babout,
+    CTreatment /*AAspace,
     Dportfolio,
     Ffooter,
     AAnavbar,
