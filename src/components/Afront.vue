@@ -1,38 +1,26 @@
 <template>
-
-<div id="front" class="front">
-    <div class="center-box"  
-    data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="90"
-    data-aos-duration="2000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false">
+  <div id="front" class="front">
+    <div class="covid-box">
       <h1>
-        
+        COVID-19 update: Our clinic is open! We have changed our company policy to follow
+        Ontario guidelines and to better ensure the safety of our patients.
       </h1>
-      
     </div>
-
-</div>
-
-    
+  </div>
 </template>
 
 <script>
-
 export default {
-  name: 'Afront',
+  name: "Afront",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style scoped>
-
-.front{/*
+.front {
+  /*
   border-style: solid;
     border-color: steelblue;*/
   background-image: url("../assets/afront.jpg");
@@ -43,12 +31,34 @@ export default {
   background-size: cover;
 }
 
-.center-box{
+.covid-box {
+  /*  border-style: solid;*/
+  background: #0032f9b6;
+  position: relative;
+  height: 6vh;
+  margin: auto;
+  width: 100%;
+  top: 12%;
+  bottom: 20%;
+}
+
+.covid-box h1 {
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  padding-top: 10px;
+}
+
+.center-box {
   position: relative;
   height: 20vh;
-  margin: auto;width: 40%;
-  top: 20%;
-  bottom: 20%;
+  margin: auto;
+  width: 80%;
+  top: 10%;
+  bottom: 10%;
 }
 .center {
   margin: auto;
@@ -57,19 +67,19 @@ export default {
   padding: 10px;
 }
 
-.center-box h1{
+.center-box h1 {
   /*border-style: solid;    border-color: steelblue;*/
-    white-space: wrap;
+  white-space: wrap;
   position: absolute;
   font-family: Segoe Script;
-	font-style: normal;
-	font-weight: bold;
-	color: #C17A00;
+  font-style: normal;
+  font-weight: bold;
+  color: #c17a00;
   font-size: 70px;
-  top:30%;
-      left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 800px) {
@@ -96,10 +106,9 @@ export default {
   }
 }
 
-@media (min-width: 700px){
-  .front{
+@media (min-width: 700px) {
+  .front {
     background-attachment: fixed;
   }
 }
-
 </style>
