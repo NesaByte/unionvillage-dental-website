@@ -25,7 +25,7 @@ import "bootstrap/dist/css/bootstrap-grid.css";
 
 <style lang="scss" scoped>
 .navbar {
-  background-color: #060702bf;
+  background-color: #73873df1;
   padding-bottom: 0;
   .navbar-nav {
     margin-left: auto;
@@ -33,12 +33,15 @@ import "bootstrap/dist/css/bootstrap-grid.css";
     .nav-item {
       .nav-link {
         color: white;
+        font-family: Roboto;
         transition: all ease-in-out 0.5s;
         border-bottom: 3px solid transparent;
         text-transform: uppercase;
-        font-weight: 500;
-        font-size: 14px;
-        padding: 1rem;
+        /*font-weight: 500;*/
+        font-size: 18px;
+        /*padding: 5px;*/
+        padding-left: 35px;
+        padding-right: 35px;
         &.router-link-active {
           color: blue;
           border-bottom: 3px solid purple;
@@ -47,7 +50,7 @@ import "bootstrap/dist/css/bootstrap-grid.css";
       &:hover {
         .nav-link {
           color: paleturquoise;
-          border-bottom: 3px solid peru;
+          border-bottom: 3px solid #234120;
         }
       }
     }
