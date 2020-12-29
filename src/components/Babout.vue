@@ -80,7 +80,7 @@ export default {
 .about p {
   font-family: Tahoma;
   color: #707070;
-  font-size: 15px;
+  font-size: 14px;
 }
 .row {
   display: block;
@@ -92,110 +92,17 @@ export default {
   margin-right: 20%;
   margin-left: 20%;
 }
-.pic {
-  border-style: solid;
-  border-color: steelblue;
-  position: block;
-  width: 50%;
-  height: 50%; /*
-  margin-left: 15%;
-  margin-right: 15%;*/
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
-
-.photo-box {
-  /*  border-style: solid;    border-color: steelblue;*/
-  position: block;
-  box-sizing: border-box;
-  flex-basis: 33.3333%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  background-image: url("../assets/babout.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-top: 0%;
-}
-/**/
-
-.progress-row {
-  display: block;
-  margin-top: 2%;
-  margin-bottom: 5%;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-}
-
-.progress-box-1 {
-  box-sizing: border-box;
-  display: block;
-  flex-basis: 96%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  font-size: 16px;
-  margin-left: 2%;
-  margin-right: 2%;
-  line-height: 24px;
-  max-width: 96%;
-  width: 240px;
-  margin-bottom: 10px; /*
-  border-style: solid;    border-color: steelblue;*/
-}
-
-.progress-desc {
-  font-size: 14px;
-  line-height: 13px;
-  color: black;
-  margin-bottom: 0;
-  padding: 0 0 2px 0;
-  word-wrap: break-word;
-}
-
-.progress-percentage {
-  float: right;
-}
-
-.progress-bar-col {
-  height: 10px;
-  transition: 0.9s all linear;
-  background-color: #c17a00;
-}
-
-.progress-bar-wrap {
-  background: #fdd059;
-}
 
 @media screen and (max-width: 2100px) {
-  .pic {
-    margin-top: -7%;
-  }
 }
 
 @media screen and (max-width: 1600px) {
-  .pic {
-    margin-top: -9%;
-  }
 }
 
 @media screen and (max-width: 1400px) {
-  .pic {
-    margin-top: -12%;
-  }
 }
 
 @media screen and (max-width: 1200px) {
-  .pic {
-    margin-top: -15%;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -204,24 +111,6 @@ export default {
     margin-left: 0%;
   }
 
-  .pic {
-    position: static;
-    display: block;
-    width: 100%;
-    height: 50vh;
-    margin-top: 10%;
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-
-  .photo-box {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    margin-right: 0%;
-    margin-left: 5%;
-    margin-top: -5%;
-  }
   .center-box h1 {
     margin-left: 10%;
     margin-right: 10%;
