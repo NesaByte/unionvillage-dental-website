@@ -67,17 +67,16 @@ body {
 }
 
 h2 {
-  font-family: Sitka Small;
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif Small;
   position: absolute;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  margin-top: 5%;
+  font-size: 50px;
   white-space: nowrap;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  color: #c17a00;
+  color: #58682c;
 }
 
 .h2-shadow {
