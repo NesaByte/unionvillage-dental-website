@@ -7,12 +7,9 @@
     data-aos-mirror="true"
     data-aos-once="true"
   >
-    <div class="boxx">
-      <p class="h2-shadow">POLICIES</p>
-      <h2>POLICIES</h2>
-    </div>
+    <h2>POLICIES</h2>
 
-    <div class="center-box container">
+    <div class="center-box">
       <div
         class="text"
         data-aos="fade-left"
@@ -29,7 +26,7 @@
           armamentarium needed for the required procedures. We therefore require you to
           give us a minimum 24 HR notification if you are unable to attend the
           appointment. If the cancellation is made less than 24 HRs, a cancellation fee
-          will be charged.
+          will be charged. <br /><br />
         </p>
 
         <h1>Emergency Treatment Policy</h1>
@@ -38,13 +35,13 @@
           In the event of drop-in patient with urgent needs. The drop-in patient will be
           treated first depends on the severity of emergency. We apologize if your
           appointment times have to be delayed due to the case of emergency drop-in
-          patients.
+          patients. <br /><br />
         </p>
         <h1>Payment Policy</h1>
 
         <p>
           We accept all forms of payment, including cash, visa, mastercard, and debit
-          card. We also accept all forms of insurance policies.
+          card. We also accept all forms of insurance policies. <br /><br />
         </p>
       </div>
     </div>
@@ -69,30 +66,51 @@ export default {
 
 .text {
   display: block;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-right: 10%;
   margin-left: 10%;
 }
 .about h1 {
   font-family: Tahoma;
+  font-weight: 900;
   color: #707070;
   font-size: 15px;
 }
-
+.about p {
+  font-family: Tahoma;
+  color: #707070;
+  font-size: 14px;
+}
+.row {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 60%;
+  height: auto;
+  margin-right: 20%;
+  margin-left: 20%;
+}
 .pic {
   border-style: solid;
   border-color: steelblue;
-  position: absolute;
+  position: block;
   width: 50%;
-  height: 50%;
-  margin-top: 80%;
-  margin-left: 25%;
-  margin-right: 25%; /**/
+  height: 50%; /*
+  margin-left: 15%;
+  margin-right: 15%;*/
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .photo-box {
   /*  border-style: solid;    border-color: steelblue;*/
-  position: absolute;
+  position: block;
+  box-sizing: border-box;
+  flex-basis: 33.3333%;
+  flex-grow: 0;
+  flex-shrink: 0;
   background-image: url("../assets/babout.jpg");
   background-repeat: no-repeat;
   background-position: center;
