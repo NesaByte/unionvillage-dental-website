@@ -1,8 +1,8 @@
-module.exports = {
+/*module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/NesaByte-Vue-Version1/'
+      ? '/Unionvillage-dental-Version1/'
       : '/'
   }
-/*module.exports = {
+module.exports = {
     publicPath: '/NesaByte-Vue-Version1/'
 }*/

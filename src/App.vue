@@ -21,10 +21,10 @@ import Babout from "./components/Babout.vue";
 import CTreatment from "./components/CTreatment.vue";
 import DPolicies from "./components/DPolicies.vue";
 import Econtact from "./components/Econtact.vue";
+import Ffooter from "./components/Ffooter.vue";
 import AAnavbar from "./components/AAnavbar.vue";
 
 /*
-import Ffooter from './components/Ffooter.vue'
 import AAspace from './components/AAspace.vue'
  import 'vue-navigation-bar/dist/vue-navigation-bar.css'*/
 export default {
@@ -35,11 +35,11 @@ export default {
     CTreatment,
     DPolicies,
     Econtact,
+    Ffooter,
     AAnavbar,
 
     /*AAspace,
-    Ffooter,
-    */
+     */
   },
 };
 </script>

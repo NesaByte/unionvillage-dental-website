@@ -6,10 +6,10 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="navv">
-          <b-nav-item active href="#front" to="/">Home</b-nav-item>
-          <b-nav-item active href="#about" to="/about">About</b-nav-item>
-          <b-nav-item active href="#portfolio" to="/projects">Porfoliio</b-nav-item>
-          <b-nav-item active href="#contact" to="/contact-us">Contact</b-nav-item>
+          <b-nav-item active href="#about" to="/">ABOUT US</b-nav-item>
+          <b-nav-item active href="#treatment" to="/about">TREATMENT</b-nav-item>
+          <b-nav-item active href="#policies" to="/projects">POLICIES</b-nav-item>
+          <b-nav-item active href="#contact" to="/contact-us">CONTACT</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
