@@ -6,8 +6,8 @@
     data-aos-once="true">
     
     <div class="boxx">
-      <p class="h2-shadow">ABOUT US</p>
-      <h2> ABOUT US</h2>
+      <p class="h2-shadow">POLICIES</p>
+      <h2> POLICIES</h2>
     </div>
 
     
