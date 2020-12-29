@@ -1,5 +1,5 @@
 <template>
-    <!-- - - - - - NAVIGATION BAR - - - - - -->
+  <!-- - - - - - NAVIGATION BAR - - - - - -->
   <header class="navg">
     <b-navbar fixed="top" toggleable="lg" type="dark">
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -19,14 +19,13 @@
 <script>
 export default {};
 
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/css/bootstrap-grid.css'
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap-grid.css";
 </script>
 
 <style lang="scss" scoped>
-
 .navbar {
-  background-color:  #060702BF;
+  background-color: #060702bf;
   padding-bottom: 0;
   .navbar-nav {
     margin-left: auto;
@@ -46,7 +45,7 @@ import 'bootstrap/dist/css/bootstrap-grid.css'
         }
       }
       &:hover {
-        .nav-link{
+        .nav-link {
           color: paleturquoise;
           border-bottom: 3px solid peru;
         }

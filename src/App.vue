@@ -9,6 +9,7 @@
       <Econtact id="contact" />
 
       <AAspace />
+      <Dportfolio id="portfolio" />
       <ffooter />
     </div>
   </div>
@@ -20,11 +21,11 @@ import Babout from "./components/Babout.vue";
 import CTreatment from "./components/CTreatment.vue";
 import DPolicies from "./components/DPolicies.vue";
 import Econtact from "./components/Econtact.vue";
+import AAnavbar from "./components/AAnavbar.vue";
 
-/*import Dportfolio from './components/Dportfolio.vue'
+/*
 import Ffooter from './components/Ffooter.vue'
 import AAspace from './components/AAspace.vue'
-import AAnavbar from './components/AAnavbar.vue'
  import 'vue-navigation-bar/dist/vue-navigation-bar.css'*/
 export default {
   name: "App",
@@ -33,11 +34,12 @@ export default {
     Babout,
     CTreatment,
     DPolicies,
-    Econtact /*AAspace,
-    Dportfolio,
-    Ffooter,
+    Econtact,
     AAnavbar,
-    Econtact*/,
+
+    /*AAspace,
+    Ffooter,
+    */
   },
 };
 </script>

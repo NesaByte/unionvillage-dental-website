@@ -98,12 +98,6 @@ export default {
   border-style: solid;    border-color: black;*/
 }
 
-.uvd-col {
-  /*
-    border-style: solid;    border-color: steelblue;
-    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);*/
-}
-
 .icons {
   /*
   border-style: solid;    border-color: green;*/
