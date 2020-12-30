@@ -166,12 +166,14 @@ export default {
   color: #707070;
   font-size: 14px;
 }
+
 .text {
   display: block;
   margin-top: 5%;
   margin-right: 27%;
   margin-left: 27%;
 }
+
 .uvd-col li {
   font-size: 14px;
   line-height: 13px;
@@ -190,6 +192,7 @@ export default {
   color: #707070;
   font-size: 14px;
 }
+
 .uvd-col h3 {
   text-align: left;
   padding: 0;
@@ -199,14 +202,17 @@ export default {
   font-size: 14px;
   font-weight: 900;
 }
+
 hr.liner {
   border: 1px solid#AE9C9C;
   width: 85%;
 }
+
 .img-fluid {
   max-width: 100%;
   max-height: 100%;
 }
+
 .uvd-col .img {
   position: relative;
   vertical-align: middle;
@@ -251,11 +257,13 @@ hr.liner {
     max-width: 46%;
     flex-basis: 46%;
   }
+
   .row {
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
   }
+
   .text {
     margin-right: 15%;
     margin-left: 15%;
@@ -278,14 +286,17 @@ hr.liner {
   .text p {
     font-size: 15px;
   }
+
   .text {
     margin-top: 6%;
     margin-right: 5%;
     margin-left: 5%;
   }
+
   .uvd-col p {
     font-size: 15px;
   }
+
   .uvd-col h3 {
     font-size: 15px;
   }
@@ -295,14 +306,17 @@ hr.liner {
   .text p {
     font-size: 14px;
   }
+
   .text {
     margin-top: 6%;
     margin-right: 5%;
     margin-left: 5%;
   }
+
   .uvd-col p {
     font-size: 14px;
   }
+
   .uvd-col h3 {
     font-size: 14px;
   }
@@ -312,6 +326,7 @@ hr.liner {
   .text p {
     font-size: 13px;
   }
+
   .text {
     margin-top: 8%;
   }
@@ -319,6 +334,7 @@ hr.liner {
   .uvd-col p {
     font-size: 13px;
   }
+
   .uvd-col h3 {
     font-size: 13px;
   }
@@ -327,6 +343,7 @@ hr.liner {
   .text p {
     font-size: 12px;
   }
+
   .text {
     margin-top: 10%;
   }
@@ -334,6 +351,7 @@ hr.liner {
   .uvd-col p {
     font-size: 12px;
   }
+
   .uvd-col h3 {
     font-size: 12px;
   }
