@@ -12,22 +12,20 @@
 
 <script>
 export default {
-    name: 'Ffooter',
+  name: "Ffooter",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style scoped>
-
-.mfooter{
-    background: #C17A00;
-
+.mfooter {
+  background: #5d702a;
+  color: white;
 }
 
-.mfooter span{
+.mfooter span {
   font-family: Segoe Script;
 }
-
 </style>
