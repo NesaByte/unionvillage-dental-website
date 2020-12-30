@@ -165,6 +165,7 @@ export default {
   font-weight: 700;
   color: #707070;
   font-size: 14px;
+  text-align: center;
 }
 
 .text {
