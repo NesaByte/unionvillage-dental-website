@@ -100,8 +100,6 @@ hr.liner {
   margin-top: 5%;
   margin-right: 10%;
   margin-left: 10%;
-  border-style: solid;
-  border-color: black;
 }
 .about h1 {
   font-family: Tahoma;
@@ -120,9 +118,7 @@ hr.liner {
 .uvd-col .img {
   position: static;
   vertical-align: middle;
-  border-style: none; /**/
-  border-style: solid;
-  border-color: black;
+  border-style: none;
 }
 .img h4 {
   display: inline;
@@ -132,8 +128,6 @@ hr.liner {
   color: #707070;
   font-size: 14px;
   font-weight: 900;
-  border-style: solid;
-  border-color: green;
   margin: 20px 1px 10px 10px;
 }
 .uvd-col p {
@@ -155,9 +149,6 @@ hr.liner {
   font-weight: 900;
 }
 .icons {
-  /**/
-  border-style: solid;
-  border-color: green;
   box-sizing: border-box;
   display: block;
   flex-basis: 100%;
@@ -171,9 +162,6 @@ hr.liner {
   margin-bottom: 10px;
 }
 .row {
-  /**/
-  border-style: solid;
-  border-color: red;
   display: block;
   margin-top: 1%;
   display: flex;
@@ -187,129 +175,24 @@ hr.liner {
 .img-fluid {
   max-width: 25%;
   max-height: 25%;
-  border-style: solid;
-  border-color: green;
-}
-.pic {
-  border-style: solid;
-  border-color: steelblue;
-  position: block;
-  width: 50%;
-  height: 50%; /*
-  margin-left: 15%;
-  margin-right: 15%;*/
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
-
-.photo-box {
-  /*  border-style: solid;    border-color: steelblue;*/
-  position: block;
-  box-sizing: border-box;
-  flex-basis: 33.3333%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  background-image: url("../assets/babout.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-top: 0%;
-}
-/**/
-
-.progress-row {
-  display: block;
-  margin-top: 2%;
-  margin-bottom: 5%;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-}
-
-.progress-box-1 {
-  box-sizing: border-box;
-  display: block;
-  flex-basis: 96%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  font-size: 16px;
-  margin-left: 2%;
-  margin-right: 2%;
-  line-height: 24px;
-  max-width: 96%;
-  width: 240px;
-  margin-bottom: 10px; /*
-  border-style: solid;    border-color: steelblue;*/
-}
-
-.progress-desc {
-  font-size: 14px;
-  line-height: 13px;
-  color: black;
-  margin-bottom: 0;
-  padding: 0 0 2px 0;
-  word-wrap: break-word;
-}
-
-.progress-percentage {
-  float: right;
-}
-
-.progress-bar-col {
-  height: 10px;
-  transition: 0.9s all linear;
-  background-color: #c17a00;
-}
-
-.progress-bar-wrap {
-  background: #fdd059;
 }
 
 @media screen and (max-width: 2100px) {
-  .pic {
-    margin-top: -7%;
-  }
 }
 
 @media screen and (max-width: 1600px) {
-  .pic {
-    margin-top: -9%;
-  }
 }
 
 @media screen and (max-width: 1400px) {
-  .pic {
-    margin-top: -12%;
-  }
 }
 
 @media screen and (max-width: 1200px) {
-  .pic {
-    margin-top: -15%;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   .text {
     margin-top: 15%;
     margin-left: 0%;
-  }
-
-  .pic {
-    position: static;
-    display: block;
-    width: 100%;
-    height: 50vh;
-    margin-top: 10%;
-    margin-left: 0%;
-    margin-right: 0%;
   }
 
   .photo-box {
