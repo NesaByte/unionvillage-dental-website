@@ -1,24 +1,8 @@
 # unionvillage-dental
+Proposed website for UNIONVILLAGE DENTAL.
 
-## Project setup
-```
-npm install
-```
+## ADOBE XD design
+![](https://cdn.discordapp.com/attachments/766377851510980628/793718282204872744/Web_1920_1.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Website Implementation in Vue
+![](src/assets/uvd.gif)
