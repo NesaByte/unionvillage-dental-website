@@ -3,7 +3,7 @@
   <mdb-footer>
     <div class="mfooter footer-copyright text-center py-3">
       <mdb-container fluid>
-        Copyright &copy; 2020 designed by <span>NesaByte</span>
+        Copyright &copy; 2021 designed by <span>NesaByte</span>
       </mdb-container>
     </div>
   </mdb-footer>
