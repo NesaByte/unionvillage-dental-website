@@ -6,7 +6,7 @@
       data-aos-mirror="true"
       data-aos-once="true"
     >
-      <h2>POLICIES</h2>
+      <h2>CONTACT US</h2>
     </div>
     <div
       class="center-box container"
