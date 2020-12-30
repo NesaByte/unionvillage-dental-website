@@ -32,19 +32,6 @@
           chairs, to ensure you the best quality of care. <br />
         </p>
       </div>
-      <div
-        class="row"
-        data-aos="fade-left"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="true"
-      >
-        <div class="portfolio-box-1">
-          <div class="img">
-            <img src="../assets/babout.jpg" alt class="img-fluid" />
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>

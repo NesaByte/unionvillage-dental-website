@@ -4,12 +4,10 @@
       <AAnavbar />
       <Afront id="front" />
       <Babout id="about" />
+      <AAspace />
       <CTreatment id="treatment" />
       <DPolicies id="policies" />
       <Econtact id="contact" />
-
-      <AAspace />
-      <Dportfolio id="portfolio" />
       <ffooter />
     </div>
   </div>
@@ -23,9 +21,9 @@ import DPolicies from "./components/DPolicies.vue";
 import Econtact from "./components/Econtact.vue";
 import Ffooter from "./components/Ffooter.vue";
 import AAnavbar from "./components/AAnavbar.vue";
+import AAspace from "./components/AAspace.vue";
 
 /*
-import AAspace from './components/AAspace.vue'
  import 'vue-navigation-bar/dist/vue-navigation-bar.css'*/
 export default {
   name: "App",
@@ -37,9 +35,7 @@ export default {
     Econtact,
     Ffooter,
     AAnavbar,
-
-    /*AAspace,
-     */
+    AAspace,
   },
 };
 </script>
