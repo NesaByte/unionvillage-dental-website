@@ -1,7 +1,7 @@
 <template>
   <div
-    id="about"
-    class="about ssection"
+    id="policies"
+    class="policies ssection"
     data-aos="fade-up"
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
@@ -50,7 +50,7 @@
 
 <script>
 export default {
-  name: "Babout",
+  name: "Dpolicies",
   props: {
     msg: String,
   },
@@ -58,7 +58,7 @@ export default {
 </script>
 
 <style scoped>
-.about {
+.policies {
   background: #fbfaf8;
   background-size: cover;
   display: block;
@@ -70,13 +70,13 @@ export default {
   margin-right: 10%;
   margin-left: 10%;
 }
-.about h1 {
+.policies h1 {
   font-family: Tahoma;
   font-weight: 900;
   color: #707070;
   font-size: 15px;
 }
-.about p {
+.policies p {
   font-family: Tahoma;
   color: #707070;
   font-size: 14px;
@@ -92,117 +92,51 @@ export default {
   margin-left: 20%;
 }
 
-@media screen and (max-width: 2100px) {
-}
-
-@media screen and (max-width: 1600px) {
-}
-
-@media screen and (max-width: 1400px) {
-}
-
-@media screen and (max-width: 1200px) {
-}
-
-@media screen and (max-width: 1024px) {
-  .text {
-    margin-top: 15%;
-    margin-left: 0%;
-  }
-
-  .center-box h1 {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .center-box h1 {
-    font-size: 18px;
-  }
-  .center-box h3 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .center-box h1 {
-    font-size: 18px;
-  }
-  .center-box h3 {
-    font-size: 29px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .center-box h1 {
-    font-size: 17px;
-  }
-
-  .center-box h3 {
-    font-size: 28px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .center-box h1 {
-    font-size: 16px;
-  }
-
-  .center-box h3 {
-    font-size: 26px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .center-box h1 {
+@media screen and (max-width: 750px) {
+  .policies h1 {
     font-size: 15px;
   }
-
-  .center-box h3 {
-    font-size: 23px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .center-box h1 {
-    font-size: 15px;
-  }
-
-  .center-box h3 {
-    font-size: 23px;
+  .policies p {
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .center-box h1 {
+  .text {
+    margin-top: 6%;
+  }
+  .policies h1 {
+    font-weight: 800;
     font-size: 14px;
   }
-  .center-box h3 {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .center-box h1 {
+  .policies p {
     font-size: 13px;
   }
 }
 
 @media screen and (max-width: 450px) {
-}
-
-@media screen and (max-width: 400px) {
-  .center-box h1 {
+  .text {
+    margin-top: 8%;
+  }
+  .policies h1 {
+    font-weight: 800;
+    font-size: 13px;
+  }
+  .policies p {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .center-box h1 {
-    margin-top: 20%;
+  .text {
+    margin-top: 10%;
+  }
+  .policies h1 {
+    font-weight: 800;
+    font-size: 12px;
+  }
+  .policies p {
+    font-size: 11px;
   }
 }
 </style>
