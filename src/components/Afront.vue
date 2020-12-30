@@ -32,10 +32,9 @@ export default {
 }
 
 .covid-box {
-  /*  border-style: solid;*/
   background: #0032f9b6;
   position: relative;
-  height: 6vh;
+  height: 35px;
   margin: auto;
   width: 100%;
   top: 12%;
@@ -60,12 +59,6 @@ export default {
   top: 10%;
   bottom: 10%;
 }
-.center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-}
 
 .center-box h1 {
   /*border-style: solid;    border-color: steelblue;*/
@@ -82,27 +75,38 @@ export default {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 800px) {
-  .center-box h1 {
-    font-size: 55px;
+@media screen and (max-width: 1200px) {
+  .covid-box {
+    height: 50px;
   }
 }
-
-@media screen and (max-width: 700px) {
-  .center-box h1 {
-    font-size: 45px;
-  }
-}
-
 @media screen and (max-width: 600px) {
-  .center-box h1 {
-    font-size: 35px;
+  .covid-box {
+    height: 65px;
+  }
+  .covid-box h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .center-box h1 {
-    font-size: 30px;
+/* Small phones */
+@media screen and (max-width: 450px) {
+  .covid-box {
+    height: 65px;
+  }
+
+  .covid-box h1 {
+    font-size: 11px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 325px) {
+  .covid-box {
+    height: 80px;
   }
 }
 
