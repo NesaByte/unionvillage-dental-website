@@ -1,59 +1,84 @@
 <template>
-  <div id="contact" class="contact ssection">
-    <div
-      data-aos="fade-up"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="true"
-    >
-      <p class="h2-shadow">GET IN TOUCH</p>
-      <h2>GET IN TOUCH</h2>
-    </div>
+  <div
+    id="about"
+    class="about ssection"
+    data-aos="fade-up"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="true"
+  >
+    <h2>CONTACT US</h2>
 
-    <div class="center-box container">
+    <div class="center-box">
+      <div
+        class="text"
+        data-aos="fade-left"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+      >
+        <h1>Better yet, see us in person!</h1>
+
+        <p>
+          Uninovillage dental is a patient-focused dental office in 2 Station Lane,
+          Unionville. You will receive comprehensive care from our experienced
+          professional dental team. <br />
+          Our dental clinic offer you family environmental dental care. <br /><br />
+        </p>
+      </div>
       <div class="row">
         <div class="icons" data-aos="fade-down" data-aos-delay="150" data-aos-once="true">
           <div class="uvd-col">
             <div class="img">
-              <img src="../assets/contact_icon.png" alt class="img-fluid" />
+              <img src="../assets/econtact1.png" alt class="img-fluid" />
+              <h4>Business Hours</h4>
             </div>
+            <p>
+              Monday: By appointment <br />
+              Tuesday: 9:30am - 6:30pm<br />
+              Wednesday: 9:30am - 6:30pm<br />
+              Thursday: By appointment<br />
+              Friday: By appointment<br />
+              Saturday: 9:30am - 6:30pm<br />
+              Sunday: 9:30am - 6:30pm<br />
+            </p>
           </div>
         </div>
         <div class="icons" data-aos="fade-down" data-aos-delay="300" data-aos-once="true">
           <div class="uvd-col">
             <div class="img">
-              <img src="../assets/contact_icon.png" alt class="img-fluid" />
+              <img src="../assets/econtact2.png" alt class="img-fluid" />
+              <h4>Address</h4>
             </div>
+            <p>2 Station Lane, Unionville, ON, CA L3R 1R3</p>
           </div>
         </div>
         <div class="icons" data-aos="fade-up" data-aos-delay="450" data-aos-once="true">
           <div class="uvd-col">
             <div class="img">
-              <img src="../assets/contact_icon.png" alt class="img-fluid" />
+              <img src="../assets/econtact3.png" alt class="img-fluid" />
+              <h4>Email</h4>
             </div>
+            <p>Dr Li's Email</p>
           </div>
         </div>
         <div class="icons" data-aos="fade-up" data-aos-delay="600" data-aos-once="true">
           <div class="uvd-col">
             <div class="img">
-              <img src="../assets/contact_icon.png" alt class="img-fluid" />
+              <img src="../assets/econtact4.png" alt class="img-fluid" />
+              <h4>Phone</h4>
             </div>
+            <p>(905) 604-9069</p>
           </div>
         </div>
       </div>
-
-      <!--div class="text">
-            <h1>
-                 SOME CONVING WORDS in here. like, pls people, get in touch with me happy face. xd
-            </h1>
-            </div-->
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Econtact",
+  name: "Babout",
   props: {
     msg: String,
   },
@@ -61,46 +86,78 @@ export default {
 </script>
 
 <style scoped>
-.contact {
+.about {
   background: #e3e9d1;
   background-size: cover;
   display: block;
 }
-
+hr.liner {
+  border: 1px solid#AE9C9C;
+  width: 85%;
+}
 .text {
-  display: inline-block;
-  width: 60%;
-  margin-top: 2%;
-  margin-left: 20%;
-  margin-left: 20%;
+  display: block;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
   border-style: solid;
   border-color: black;
 }
-
-.contact h1 {
-  font-family: Sitka Text;
-  color: black;
-  font-size: 20px;
+.about h1 {
+  font-family: Tahoma;
+  font-weight: 900;
+  color: #707070;
+  font-size: 15px;
+  margin-right: 35%;
+  margin-left: 40%;
 }
-
-/*.icons{
-  display: inline-block;
-  width: 48%;
-  margin-top:18%;/*
-  margin-left:0%;
-  margin-right: 2%;
-}*/
+.about p {
+  font-family: Tahoma;
+  color: #707070;
+  font-size: 14px;
+}
 
 .uvd-col .img {
-  position: relative;
+  position: static;
   vertical-align: middle;
-  border-style: none; /*
-  border-style: solid;    border-color: black;*/
+  border-style: none; /**/
+  border-style: solid;
+  border-color: black;
 }
-
+.img h4 {
+  display: inline;
+  text-align: left;
+  padding: 0;
+  font-family: Tahoma;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 900;
+  border-style: solid;
+  border-color: green;
+  margin: 20px 1px 10px 10px;
+}
+.uvd-col p {
+  line-height: 13px;
+  margin-bottom: 0;
+  padding: 10px 20px 20px 25px;
+  word-wrap: break-word;
+  font-family: Tahoma;
+  color: #707070;
+  font-size: 12px;
+}
+.uvd-col h3 {
+  text-align: left;
+  padding: 0;
+  margin: 20px 1px 20px 25px;
+  font-family: Tahoma;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 900;
+}
 .icons {
-  /*
-  border-style: solid;    border-color: green;*/
+  /**/
+  border-style: solid;
+  border-color: green;
   box-sizing: border-box;
   display: block;
   flex-basis: 100%;
@@ -113,23 +170,249 @@ export default {
   width: 43%;
   margin-bottom: 10px;
 }
-
 .row {
-  /*
-    border-style: solid;    border-color: red;*/
+  /**/
+  border-style: solid;
+  border-color: red;
   display: block;
-  margin-top: 15%;
+  margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  width: 30%;
+  width: 80%;
   height: auto;
-  margin-right: 35%;
-  margin-left: 35%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.img-fluid {
+  max-width: 25%;
+  max-height: 25%;
+  border-style: solid;
+  border-color: green;
+}
+.pic {
+  border-style: solid;
+  border-color: steelblue;
+  position: block;
+  width: 50%;
+  height: 50%; /*
+  margin-left: 15%;
+  margin-right: 15%;*/
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
-.img-fluid {
-  max-width: 100%;
-  max-height: 100%;
+.photo-box {
+  /*  border-style: solid;    border-color: steelblue;*/
+  position: block;
+  box-sizing: border-box;
+  flex-basis: 33.3333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-image: url("../assets/babout.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+/**/
+
+.progress-row {
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+.progress-box-1 {
+  box-sizing: border-box;
+  display: block;
+  flex-basis: 96%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-size: 16px;
+  margin-left: 2%;
+  margin-right: 2%;
+  line-height: 24px;
+  max-width: 96%;
+  width: 240px;
+  margin-bottom: 10px; /*
+  border-style: solid;    border-color: steelblue;*/
+}
+
+.progress-desc {
+  font-size: 14px;
+  line-height: 13px;
+  color: black;
+  margin-bottom: 0;
+  padding: 0 0 2px 0;
+  word-wrap: break-word;
+}
+
+.progress-percentage {
+  float: right;
+}
+
+.progress-bar-col {
+  height: 10px;
+  transition: 0.9s all linear;
+  background-color: #c17a00;
+}
+
+.progress-bar-wrap {
+  background: #fdd059;
+}
+
+@media screen and (max-width: 2100px) {
+  .pic {
+    margin-top: -7%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .pic {
+    margin-top: -9%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .pic {
+    margin-top: -12%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pic {
+    margin-top: -15%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    margin-top: 15%;
+    margin-left: 0%;
+  }
+
+  .pic {
+    position: static;
+    display: block;
+    width: 100%;
+    height: 50vh;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .photo-box {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 5%;
+    margin-top: -5%;
+  }
+  .center-box h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .center-box h1 {
+    font-size: 18px;
+  }
+  .center-box h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .center-box h1 {
+    font-size: 18px;
+  }
+  .center-box h3 {
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .center-box h1 {
+    font-size: 17px;
+  }
+
+  .center-box h3 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .center-box h1 {
+    font-size: 16px;
+  }
+
+  .center-box h3 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .center-box h1 {
+    font-size: 15px;
+  }
+
+  .center-box h3 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .center-box h1 {
+    font-size: 15px;
+  }
+
+  .center-box h3 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .center-box h1 {
+    font-size: 14px;
+  }
+  .center-box h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .center-box h1 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 400px) {
+  .center-box h1 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .center-box h1 {
+    margin-top: 20%;
+  }
 }
 </style>
