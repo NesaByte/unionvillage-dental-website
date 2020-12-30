@@ -210,13 +210,11 @@ hr.liner {
 .uvd-col .img {
   position: relative;
   vertical-align: middle;
-  border-style: none; /*
-    border-style: solid;    border-color: black;*/
+  border-style: none;
 }
 
 .uvd-col {
-  background: #fcfcfc; /*
-    border-style: solid;    border-color: steelblue;*/
+  background: #fcfcfc;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
 }
@@ -253,12 +251,91 @@ hr.liner {
     max-width: 46%;
     flex-basis: 46%;
   }
+  .row {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .text {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
 }
 
 @media screen and (max-width: 512px) {
   .portfolio-box-1 {
     max-width: 96%;
     flex-basis: 96%;
+  }
+
+  .row {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .text p {
+    font-size: 15px;
+  }
+  .text {
+    margin-top: 6%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .uvd-col p {
+    font-size: 15px;
+  }
+  .uvd-col h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .text p {
+    font-size: 14px;
+  }
+  .text {
+    margin-top: 6%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .uvd-col p {
+    font-size: 14px;
+  }
+  .uvd-col h3 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text p {
+    font-size: 13px;
+  }
+  .text {
+    margin-top: 8%;
+  }
+
+  .uvd-col p {
+    font-size: 13px;
+  }
+  .uvd-col h3 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .text p {
+    font-size: 12px;
+  }
+  .text {
+    margin-top: 10%;
+  }
+
+  .uvd-col p {
+    font-size: 12px;
+  }
+  .uvd-col h3 {
+    font-size: 12px;
   }
 }
 </style>
