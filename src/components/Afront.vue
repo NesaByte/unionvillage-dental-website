@@ -20,9 +20,6 @@ export default {
 
 <style scoped>
 .front {
-  /*
-  border-style: solid;
-    border-color: steelblue;*/
   background-image: url("../assets/afront.jpg");
   width: 100%;
   height: 100vh;
@@ -49,30 +46,6 @@ export default {
   margin-right: 15%;
   width: 70%;
   padding-top: 10px;
-}
-
-.center-box {
-  position: relative;
-  height: 20vh;
-  margin: auto;
-  width: 80%;
-  top: 10%;
-  bottom: 10%;
-}
-
-.center-box h1 {
-  /*border-style: solid;    border-color: steelblue;*/
-  white-space: wrap;
-  position: absolute;
-  font-family: Segoe Script;
-  font-style: normal;
-  font-weight: bold;
-  color: #c17a00;
-  font-size: 70px;
-  top: 30%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1200px) {
