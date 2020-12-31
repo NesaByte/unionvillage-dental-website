@@ -69,16 +69,6 @@ export default {
   color: #707070;
   font-size: 14px;
 }
-.row {
-  display: block;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  width: 60%;
-  height: auto;
-  margin-right: 20%;
-  margin-left: 20%;
-}
 
 @media screen and (max-width: 750px) {
   .about h1 {
