@@ -23,8 +23,6 @@ import Ffooter from "./components/Ffooter.vue";
 import AAnavbar from "./components/AAnavbar.vue";
 import AAspace from "./components/AAspace.vue";
 
-/*
- import 'vue-navigation-bar/dist/vue-navigation-bar.css'*/
 export default {
   name: "App",
   components: {
@@ -48,13 +46,10 @@ body {
 .ssection {
   padding: 60px 0;
   overflow: hidden;
-  display: block; /*
-    border-style: solid;    border-color: red;*/
+  display: block;
 }
 
 .container {
-  /*
-    border-style: solid;    border-color: green;*/
   display: block;
   right: 15%;
   left: 15%;
@@ -77,7 +72,7 @@ h2 {
 
 .h2-shadow {
   font-family: Sitka Small;
-  color: #e5cda0;
+  color: red;
   position: absolute;
   font-style: normal;
   font-weight: bold;
