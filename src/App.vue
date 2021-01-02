@@ -70,32 +70,9 @@ h2 {
   color: #58682c;
 }
 
-.h2-shadow {
-  font-family: Sitka Small;
-  color: red;
-  position: absolute;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 70px;
-  margin-top: 3%;
-  white-space: nowrap;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-@media screen and (min-width: 1400px) {
-  .h2-shadow {
-    margin-top: 4%;
-  }
-}
-
 @media screen and (max-width: 900px) {
   h2 {
     font-size: 37px;
-  }
-  .h2-shadow {
-    font-size: 65px;
   }
 }
 
@@ -103,17 +80,11 @@ h2 {
   h2 {
     font-size: 33px;
   }
-  .h2-shadow {
-    font-size: 60px;
-  }
 }
 
 @media screen and (max-width: 700px) {
   h2 {
     font-size: 28px;
-  }
-  .h2-shadow {
-    font-size: 55px;
   }
 }
 
@@ -121,34 +92,10 @@ h2 {
   h2 {
     font-size: 24px;
   }
-  .h2-shadow {
-    font-size: 50px;
-  }
 }
 
 @media screen and (max-width: 500px) {
   h2 {
-    font-size: 20px;
-  }
-  .h2-shadow {
-    font-size: 45px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .h2-shadow {
-    font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .h2-shadow {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 200px) {
-  .h2-shadow {
     font-size: 20px;
   }
 }
